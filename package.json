@@ -1,0 +1,14 @@
+﻿{
+  "name": "hyperprompt",
+  "version": "1.0.0",
+  "description": "Zero-dependency prompt templating, token economics estimator, and semantic evaluation framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/*.test.js"
+  },
+  "keywords": ["llm", "prompt-engineering", "evals", "tokens", "agents", "testing"],
+  "author": "davidselorm",
+  "license": "MIT"
+}
